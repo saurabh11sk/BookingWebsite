@@ -1,0 +1,220 @@
+
+body {
+  width: 100%;
+  
+  height: 100vh;
+ 
+  font-family: "Raleway", sans-serif;
+}
+
+ header, header nav .menu, header nav .menu ul, header nav .myAccount .ctaGroup, header nav .myAccount .ctaGroup .cta, .booking_info .opt, .booking_info .opt span, .booking_details, .booking_details .item .cta {
+ 
+  display: flex;
+  
+          justify-content: center;
+  
+          align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, #03a9f43b, white, white);
+  
+      
+ flex-direction: column; 
+}
+
+
+header {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0 10%;
+  color: #241a71;
+box-sizing: border-box;
+}
+
+ header nav {
+display: flex; 
+justify-content: space-between; 
+align-items: center;
+  width: 100%;
+} 
+
+header nav .menu .logo {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 50px;
+  text-transform: uppercase;
+  color: #241a71;
+}
+
+header nav .menu .logo span {
+  color: #f6685e;
+}
+
+header nav .menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+header nav .menu ul li {
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+header nav .menu ul li + li {
+  margin-left: 15px;
+}
+
+header nav .myAccount .ctaGroup .cta {
+  width: 135px;
+  height: 35px;
+  border: 1px solid #240503;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 35px;
+  color: #f6685e;
+  cursor: pointer;
+}
+
+header nav .myAccount .ctaGroup .cta + .cta {
+  margin-left: 15px;
+}
+
+header nav .myAccount .ctaGroup .cta.active {
+  background-color: #f6685e;
+  color: #fff;
+}
+
+.hotel_content {
+  display: block;
+  text-align: center;
+  width: 768px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  margin-top: 50px;
+}
+
+.info h2 {
+  color: #241a71;
+}
+
+.info p {
+  font-size: 35px;
+  color: #f6685e;
+}
+
+.booking_info {
+  margin-top: -15px;
+}
+
+.booking_info .opt {  
+display: flex;
+justify-content: flex-start;
+position: relative;
+top: 30px;
+ 
+}
+
+.booking_info .opt span {
+  width: 130px;
+  height: 70px;
+  border-radius: 20px;
+  background-color: #e9e8f0;
+  cursor: pointer;
+  
+align-items: flex-start;
+  font-size: 14px;
+  position: relative;
+  z-index: 2;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+
+.booking_info .opt span.active {
+  background-color: #241a71;
+  color: #fff;
+}
+
+.booking_info .opt span + span {
+  left: -15px;
+  z-index: 1;
+}
+
+.booking_details {
+  background-color: #fff;
+  height: 60px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 2;  
+box-shadow: 1px 1px 20px 0px rgba(50, 50, 50, 0.3);
+justify-content: space-between;
+
+padding: 0 15px;
+  
+         
+}
+
+.booking_details .item {
+  font-size: 10px;
+  padding: 0 5px 0 20px;
+  
+}
+
+.booking_details .item .fa {
+  font-size: 14px;
+  margin-right: 8px;
+  color: #f6685e;
+}
+
+.booking_details .item .date,
+.booking_details .item .people {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.booking_details .item .date .fa,
+.booking_details .item .people .fa {
+  margin-right: 0;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.booking_details .item .cta {
+  width: 135px;
+  height: 35px;
+  border: 1px solid #f6685e;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 35px;
+  color: #f6685e;
+  cursor: pointer;
+  background-color: #f6685e;
+  color: #fff;
+}
+
+.booking_details .item + .item {
+  border-left: 1px solid #f6685e;
+}
+
+.booking_details .item:nth-child(1) {
+  padding: 0;
+  padding-left: 5px;
+}
+
+.hotel {
+  position: absolute;
+  bottom: 6vw;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}

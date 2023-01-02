@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}  
+body{
+    background-color: rgb(176, 152, 207); 
+    min-height: 100vh;
+     width: 100%;  
+    display: grid;
+    border: 10px solid black;
+    padding: auto; 
+   border-color: rgb(15, 15, 12);
+   
+   
+
+
+}
+.createaccount{
+    /* background-image: url(.//nature3.jpg);
+    background-color: rgb(165, 197, 197);
+    width: 60%;
+    height: 60%; 
+    background-position: center;
+    background-size: cover; */
+    border-radius: 10px;
+    padding: 30px 50px 30px 100px;
+    border: 10px solid rgb(1, 15, 6);
+    margin: auto ;
+    border: none;
+    background-color: rgb(165, 197, 197);
+    
+    
+ }
+   
+.createaccount.content{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}   
+
+.submit input[type="submit"]{
+    color: rgb(2, 5, 32);
+    font-size: 20px;
+    border: none;  
+    padding: 7px 10px;
+    border-radius: 6px;  
+    background: #e1072b;
+    cursor: pointer;
+}
+.submit input[type="submit"]:hover{
+    background-color:rgb(11, 237, 86)
+}
+.reset input[type="reset"]{
+    color: rgb(10, 2, 18);
+    font-size: medium;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background-color: rgb(168, 208, 208);
+    cursor: pointer;
+}
+.reset input[type="reset"]:hover{
+    background-color: #d7101d;
+}

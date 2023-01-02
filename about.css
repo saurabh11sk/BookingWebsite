@@ -1,0 +1,31 @@
+.about{
+    text-align: center;
+    font-family:elephant;
+    color:blue;
+     /* border: 2px solid black;size: 2px; 
+ */
+}
+body{
+    background-color:powderblue;
+   
+}
+.team{
+    color: blueviolet;
+    text-align: left;
+}
+.image{
+    opacity: 0.4;
+    
+}
+.abc{
+    text-align:right;
+    color: brown;
+}
+.mail.hover{
+    text-align: right;
+    color: brown;
+}
+.mail.visit{
+    color: black;
+}
+

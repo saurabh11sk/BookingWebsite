@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+} 
+body{
+    background-color: rgb(117, 226, 226);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    border: 10px double black;
+    padding: auto;
+   border-color: rgb(180, 8, 45);
+   border: none;
+   background-image: linear-gradient(to bottom, #03a9f43b, white, white);
+}
+.signin{
+    width: 40%;
+    background: rgb(224, 227, 171);
+    border-radius: 10px;
+    padding: 100px 90px 100px 90px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+    border: 5px solid black;
+    margin: auto;
+   border: none;
+   background-image: linear-gradient(to bottom, #1894ce3b, white, white);
+}
+.signin .content{
+    display: grid;
+    align-items: center;
+    justify-content:center;
+    background-image: url("IMG_20200801_204952.jpg");
+
+}
+
+
+.sign{
+    color: rgb(210, 16, 16);
+}
+.password{
+    color: rgb(165, 9, 69);
+}
+.button{
+    display: inline-block;
+    margin:auto;
+  }
+  .submit input[type="submit"]{
+    color: rgb(195, 203, 167);
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: #3e2093;
+    cursor: pointer;
+   
+  }
+  .submit input[type="submit"]:hover{
+    background: #c51010;
+  }
+  
